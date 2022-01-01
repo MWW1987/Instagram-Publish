@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Enter Your CAption</h1>
+    <form asp-action="SendPost" method="get" >
+        <textarea placeholder="Type Your caption" name="caption"></textarea>
+    <input value="send" type="submit"/>
+    </form>
+    
+
+</div>
